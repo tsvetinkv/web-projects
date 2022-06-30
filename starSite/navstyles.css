@@ -1,0 +1,71 @@
+                         big {     position: absolute;
+                                      font-size: 40px;
+                                      top: 250px;
+                                      center: 100px;
+                                                                         }   
+                               ol {
+                                          display: inline-block;  
+                                          font-size: 21px;
+                                                  }
+                                     ul {
+			list-style-type: none;
+			padding: 0;
+		}
+		a {
+			color: skyblue;
+			text-decoration: none;
+		}
+                            .left {
+			display: inline-block;
+		}
+		.right {
+                                               display: inline-block;
+			width: 10%;
+                                 }
+		nav li {
+			display: inline-block;
+		}
+		nav {
+			text-align: center; 
+			border-bottom: 1px solid blue;
+			font-size: 18px;
+			font-weight: bold;
+                                            word-spacing: 6px;
+                                               
+		}
+		nav .active a {
+			color: white;
+			padding: 2px 4px;
+		}
+		nav li li {
+			display: block;
+			
+			
+		}
+		nav ul ul {
+			display: none;
+			position: absolute;
+		}
+		nav li:hover ul {
+			display: block;
+		}
+                              .table_picture {
+			width: 80px;
+			height: 75px;
+			
+		}
+		table {
+			border: 1px solid white;
+			border-collapse: collapse;
+			width: 60%;
+		}
+		td {
+			border: 2px solid white;
+		}
+		th {
+			color: #ffb3ff;
+			text-align: left;
+		}
+                                      
+
+                         

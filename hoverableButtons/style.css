@@ -1,0 +1,85 @@
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04ee2b;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #1094ff;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f4367f;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: rgb(212, 104, 255);
+  }
+  * {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+   padding: 5px;
+    float: right;
+    justify-content:center;
+    
+}
+.item {
+     margin: 4px;
+}
+img {
+    width: 350px;
+    height: 220px;
+}
+h1{
+text-align: center;
+}
+p{
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    font-size:20px;
+}
+h2{
+    text-align: center;
+}
+.map{ 
+   padding: 10px;
+   margin-left: 350px;
+    float: center;
+    justify-content:center;
+}
+.color{
+    background-color: rgba(185, 24, 248, 0.301);
+    
+}

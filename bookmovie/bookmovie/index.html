@@ -1,0 +1,156 @@
+<html>
+    <head>
+    <title>Home Page</title>
+  
+<style>
+    body {
+  background-color: #94BEFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #94BEFF;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.boxes{
+width:50%;
+float:left;
+}
+#mainDiv{
+width:100%;
+margin:auto;
+}
+
+
+
+p{
+  font-size: 20px;
+}
+</style>
+  </head>
+    <body>
+        <div id="navbar">
+           
+            <div id="navbar-right">
+              <a class="active" href="#home">Home</a>
+              <a href="movie.html">Филми</a> 
+             <a href="books.html">Книги</a>   
+            </div>
+          </div>
+         
+          <div id="mainDiv"> 
+            <div id="divOne" class="boxes"> 
+                  <div class="container">
+                    <a href="books.html">
+                      <img height="750" width="600" src="https://i.pinimg.com/564x/c8/c8/82/c8c882a1f02776464dbce2852198992f.jpg"/>
+                    </a>
+                    <div class="content">
+                      <h1>Книги</h1>
+                      <p><em> искаш да четеш книга, но не знаеш какво искаш, кликни върху книги избери жанр и си харесай книга.</em></p>
+                     </div>
+                 </div>
+                </div> 
+                <div id="divTwo" class="boxes"> 
+                   <div class="container">
+                    <a href="movies.html">                
+                      <img height="750" width="600" src="https://i.pinimg.com/564x/eb/f9/02/ebf90264afc81987e7559d386d945733.jpg"/>
+                    </a>
+                  <div class="content">
+                  <h1>Филми</h1>
+                  <p><em>скучаеш и искаш да гледаш филм,
+                    кликни върху изображението или в лентата за навигация
+                     филми избери какъв вид филм искаш да гледаш и готово.</em></p>
+                </div>
+              </div>
+                </div>
+          </div>
+              <b><i><em>Сайт за книги и филми</em></i></b>
+            <em>Това е сайт, където когато се чудите каква книга
+                    искате да прочетете или да гледате филм, можете да изберете една от дадените категории
+                     и научете повече за всяка книга или филм.</em>
+               
+              </section>
+              
+            
+              <script>
+                // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("navbar").style.padding = "20px 10px";
+
+                  } else {
+                    document.getElementById("navbar").style.padding = "50px 10px";
+ 
+                  }
+                }
+                </script>
+                
+    </body>
+</html>

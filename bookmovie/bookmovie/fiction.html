@@ -1,0 +1,253 @@
+<html>
+    <head>
+    
+<style>
+  body {
+  background-color: #94BEFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 35px 10px;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 10px;
+  border-radius: 3px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #94BEFF;
+  color: white;
+}
+
+#navbar-right {
+  float: center;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 5px 3px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: static;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #EBFFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 100px) {
+  .sidenav {padding-top: 20px;}
+  .sidenav a {font-size: 22px;}
+}
+ .active {
+  background-color: #06c1fa;
+}
+.topright {
+  position: absolute;
+  top: 103px;
+  right: 0px;
+  margin-bottom: 800px;
+  margin-left: 850px;
+  font-size: 20px;
+}
+.topleft {
+  position: absolute;
+  top: 83px;
+  left: 280px;
+  font-size: 20px;
+}
+p{
+  font-family: cursive;
+}
+header{
+  font-family: cursive;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #05baf7;
+}
+
+.button2:hover {
+  background-color: #08bdfa;
+  color: white;
+}
+
+</style>
+    </head>
+    <body>
+        <header>
+          <div id="navbar">
+           
+            <div id="navbar-right">
+              <a href="head.html">Home</a>
+              <a class="active" href="books.html">Books</a> 
+             <a href="movies.html">Movies</a>   
+            </div>
+          </div>
+        </header>
+    <section>
+        <header>
+
+        </header>
+        <nav>
+         
+          <div class="sidenav">
+            <br><br><br><br><br><br>
+            <a href="novel.html"><em> Novels</em></a>
+            <br>
+              <a class="active" href="fiction.html"> <em>Fantasy </em> </a>
+              <br>
+                <a href="kids.html"><em> Children's Literature  </em></a>
+                <br>
+                  <a href="thriller.html"><em>Thriller </em>  </a>
+                  <br>
+                    <a href="adventure.html"><em> Adventure Literature </em></a>
+                    <br>
+                      <a href="biography.html"> <em>Biography </em></a>
+                      <br>
+                        <a href="comedybooks.html"><em>Comedy </em></a>
+                        <br>
+                          <a  href="criminalLiterature.html"><em> Criminal literature </em></a>
+                          <br>
+                            <a href="siencefantasy.html"><em>Science fiction</em> </a>
+                            <br>
+                              <a href="schoolLiterature.html"> <em>School literature</em></a>
+                              <br>
+                            </div> 
+                          </nav>
+                        <footer>
+                        </footer>
+                        <section>
+                          <div class="topleft">
+                            <header>  
+             <br>J. K. ROWLING<br><br>
+            </header>
+            <article>
+                <header>
+                 <img width="200px" height="280px" src="data:image/jpeg;base64,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">
+                </header>
+                <p>Джоан Ро̀улинг е английска писателка,
+                   <br>  автор на фентъзи поредицата „Хари Потър“.
+                   <br> Първата книга за Хари Потър излиза с автор
+                   <br>J. K. Rowling или Joanne Kathleen Rowling
+                   <br>(Джоан Катлин Роулинг). Нейното пълно
+                   <br>официално име е само Джоан Роулинг,
+                   <br> а Катлин (името на баба ѝ) е било 
+                   <br> прибавено по настояване на издателите
+                   <br>  само с цел да се използва като инициал
+                   <br>   и да се завоалира фактът, че авторът е жена.
+                   <br>  Книгите ѝ са спечелили много награди и
+                   <br>към 2008 г. са продадени в около 500 
+                   <br>милиона копия по целия свят</p>
+               
+                
+               </div> <footer>
+                </footer>
+              </article>
+            
+              <article>
+                <div class="topright">
+                  <header style="font-size: 28px">
+                    Harry Potter and the Philosopher's Stone<br>
+                    </header>  
+                    <br> <img width="200px" height="300px" src="https://ciela.com/media/catalog/product/h/a/hari_potar_i_filosofskiat_kamak_hrm.jpg">
+                     <p>Представете си, че сте прекарали първите 10 години от <br>
+                        животът си без родители, живеещи под стълбите в семейния дом, <br>
+                        който мразиш. И на единадесетия си рожден ден откриваш, <br>
+                        че си истински магьосник! Направете пътешествие в света на магията <br>
+                        чрез Хари Потър и философския камък
+                     </p></div>
+                    <aside>
+                     <br><br> <button  class="button button2"><a href="https://chitanka.info/text/432-hari-potyr-i-filosofskijat-kamyk">Read Online</button></a>
+                    </aside>
+                    <footer>
+                    </footer>
+                  </div>
+                 </article>
+            <footer>
+            </footer>
+        </section>
+    </section>
+    <footer>
+        
+    </footer>
+    <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.padding = "20px 10px";
+
+        } else {
+          document.getElementById("navbar").style.padding = "30px 10px";
+
+        }
+      }
+      </script>
+      
+    </body>
+</html>

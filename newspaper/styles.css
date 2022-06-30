@@ -1,0 +1,38 @@
+body {
+    background-color: #faf1d4;
+}
+
+header {
+    border-bottom: 1px solid #000;
+}
+
+header h1 {
+    display: inline-block;
+
+}
+
+header h2 {
+    display: inline-block;
+
+}
+
+header h3 {
+    display: flex;
+    justify-content:flex-end;
+}
+
+header p {
+
+    margin-left: 30%;
+    display: inline-block;
+
+}
+
+.top {
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}

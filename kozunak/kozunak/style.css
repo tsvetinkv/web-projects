@@ -1,0 +1,138 @@
+/* .center {
+    text-align: center;
+    color:  #8097ff;
+}
+ .rcenter {
+        text-align: center;
+ }
+ img {
+    margin: 15px 15px 15px 15px;
+ }
+ body {
+    background-color:#ffe6cc;
+    
+  }*/
+ h1 {
+    font-family: Copperplate, Papyrus, monospace;   font-size: 40px;
+  }
+  h2 {
+    font-family: Copperplate, Papyrus, monospace; font-size: 30px;
+  }
+  h3{
+    font-family: Copperplate, Papyrus, monospace; font-size: 30px;
+  }
+
+  p {
+    font-family: Copperplate, Papyrus, monospace; font-size: 20px;
+   color:  #d24dff; 
+  }
+  li {
+    font-family: Copperplate, Papyrus, monospace; font-size: 20px;
+    color:  #d24dff;
+  }
+  footer {
+    font-family: Copperplate, Papyrus, monospace; font-size: 20px;
+    color: darkorchid;
+  }
+ #grad1 {
+    background-image: linear-gradient(to bottom right,   #ffff99, #FFCC99);
+  }
+  /* nav {
+    background-color: #fdd76c;
+}
+
+nav ul{
+    text-align: center;
+    padding: 11 px;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    display:block;
+    padding: 50px;
+}
+nav ul{
+  text-align: center;
+  padding: 10 px;
+}
+  nav ul li{
+  display:inline-block;
+  padding: 10px;
+  }
+  nav ul li a{
+  color: black;
+  text-decoration: none;
+  display:block;
+  padding: 8px;
+  border-radius: 10px;
+  }
+  .center{
+  width: 80%;
+  display: block;
+  margin: auto;
+  }
+  li a:hover{
+    background-color: #FDEAD4;
+    color: black;
+    }
+    section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    article p{
+    font-family: Arial, Helvetica, sans-serif;
+    }  */
+    /* footer {
+  
+    text-align: center;
+    color: #8097ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    width: 100%;
+    }
+    section h1{
+    text-align: center;
+    font-size: 45px;
+    }
+    header P{
+    font-style: italic;} */
+
+    header {
+   border-bottom: 2px solid rgb(43, 41, 41);
+  }
+ section {
+  float:left;
+  width: 78%;
+  padding: 5px;
+ }
+ aside {
+ float:right;
+ }
+ figure{
+  background : rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px 10px rgb();
+}
+ figure.right{
+ float:right;
+}
+ figure.left{
+  float:left;
+ }
+header h1{
+   text-transform: uppercase;
+ }
+ 
+.block_right{
+  text-align: right;
+}
+#up{
+  position: relative;
+  margin-top: -400px; 
+}
+.dn{
+  margin-top: 250px; 
+}
